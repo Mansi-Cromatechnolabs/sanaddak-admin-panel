@@ -1,0 +1,272 @@
+/* Poppins Black */
+@font-face {
+  font-family: 'Poppins';
+  src:
+    url('/fonts/poppins-black-webfont.woff2') format('woff2'),
+    url('/fonts/poppins-black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Poppins Bold */
+@font-face {
+  font-family: 'Poppins';
+  src:
+    url('/fonts/poppins-bold-webfont.woff2') format('woff2'),
+    url('/fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Poppins Medium */
+@font-face {
+  font-family: 'Poppins';
+  src:
+    url('/fonts/poppins-medium-webfont.woff2') format('woff2'),
+    url('/fonts/poppins-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Poppins Light */
+@font-face {
+  font-family: 'Poppins';
+  src:
+    url('/fonts/poppins-light-webfont.woff2') format('woff2'),
+    url('/fonts/poppins-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+/* barlow Black */
+@font-face {
+  font-family: 'Barlow';
+  src:
+    url('/fonts/barlow-black-webfont.woff2') format('woff2'),
+    url('/fonts/barlow-black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+/* barlow Bold */
+@font-face {
+  font-family: 'Barlow';
+  src:
+    url('/fonts/barlow-bold-webfont.woff2') format('woff2'),
+    url('/fonts/barlow-bold-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+/* barlow light */
+
+@font-face {
+  font-family: 'Barlow';
+  src:
+    url('/fonts/barlow-light-webfont.woff2') format('woff2'),
+    url('/fonts/barlow-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+/* lazy image */
+@import 'react-lazy-load-image-component/src/effects/blur.css';
+
+/* slick slider */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+@import 'react-quill/dist/quill.snow.css';
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.height-50 {
+  height: 50px;
+}
+.text-12 {
+  font-size: 12px !important;
+}
+.text-14 {
+  font-size: 14px !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.custom-flag-input {
+  width: 100% !important;
+  height: 50px !important;
+  border-color: #f0f2ee !important;
+}
+
+.custom-flag-input-error {
+  width: 100% !important;
+  height: 50px !important;
+  border-color: red !important;
+}
+.flag-dropdown {
+  border-color: #f0f2ee !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.react-tel-input {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.react-tel-input-error {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+/* for live gold rate */
+.live-gold-container {
+  background-color: #efefef;
+  height: 50px;
+  box-shadow: 0 0 2px #092d63;
+  border-radius: 10px;
+  padding: 5px;
+  color: black !important;
+  display: inline-block !important;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  position: relative;
+  min-width: 220px;
+}
+
+.live-gold-content {
+  position: absolute;
+}
+
+.live-gold-content.slide-up-out {
+  animation: slide-up-out 0.5s forwards;
+}
+
+.live-gold-content.slide-down-in {
+  animation: slide-down-in 0.5s forwards;
+}
+.small-text {
+  font-size: 12px;
+}
+.mobile-container {
+  padding: 0px 25px 0px 25px;
+}
+
+/* appointment time slots */
+.day-container {
+  width: 20px;
+  height: 30px;
+  border: 1px solid red;
+}
+
+.svg-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-input-number {
+  border-radius: 8px !important;
+  animation-duration: 10ms;
+}
+.custom-input-number::placeholder {
+  font-size: 14px;
+}
+.custom-input-number:focus {
+  border-width: 2px;
+}
+.custom-input-number:focus,
+.custom-input-number:hover {
+  box-shadow: none !important;
+  border-color: #be7509 !important;
+}
+
+.react-international-phone-input {
+  width: 100%;
+  height: 50px !important;
+  background-color: transparent !important;
+}
+.react-international-phone-country-selector-button {
+  height: 50px !important;
+  width: 50px;
+  background-color: transparent !important;
+}
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+.react-international-phone-input-container .react-international-phone-input {
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+/* valuation card shake effect */
+.card-tilt-shake {
+  animation: tilt-shaking 0.3s infinite;
+}
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes slide-up-out {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-down-in {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .live-gold-container {
+    min-width: 220px;
+  }
+}
+@media (max-width: 767px) and (min-width: 425px) {
+  .live-gold-container {
+    min-width: 38%;
+  }
+}
+@media (max-width: 425px) {
+  .live-gold-container {
+    width: 100%;
+  }
+}
+
+.loading-animation {
+  transform-origin: center;
+  animation: loading 1.5s linear infinite;
+}
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
